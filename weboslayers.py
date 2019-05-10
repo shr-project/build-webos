@@ -53,37 +53,36 @@
 Distribution = "webos"
 
 # Supported MACHINE-s
-Machines = ['qemux86', 'raspberrypi3', 'raspberrypi4']
+Machines = ['qemux86', 'qemuarm', 'raspberrypi3', 'raspberrypi3-64', 'raspberrypi4', 'raspberrypi4-64']
 
 # github.com/openembedded repositories are read-only mirrors of the authoritative
 # repositories on git.openembedded.org
 webos_layers = [
-('bitbake',                   -1, 'git://github.com/openembedded/bitbake.git',              'branch=1.40,commit=b690030e', ''),
+('bitbake',                   -1, 'git://github.com/openembedded/bitbake.git',              'branch=1.42,commit=7f712621', ''),
 
-('meta',                       5, 'git://github.com/openembedded/openembedded-core.git',    'branch=thud,commit=e68991ceb5', 'oe-core'),
+('meta',                       5, 'git://github.com/openembedded/openembedded-core.git',    'branch=warrior,commit=ae341aed81', 'oe-core'),
 
-('meta-oe',                   10, 'git://github.com/openembedded/meta-openembedded.git',    'branch=thud,commit=446bd615fd', 'meta-oe'),
+('meta-oe',                   10, 'git://github.com/openembedded/meta-openembedded.git',    'branch=warrior,commit=a24acf94d4', 'meta-oe'),
 ('meta-multimedia',           11, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
 ('meta-networking',           12, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
 ('meta-python',               13, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
 ('meta-filesystems',          14, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
 
-('meta-updater',              15, 'git://github.com/advancedtelematic/meta-updater.git',    'branch=thud,commit=24a560c', ''),
-('meta-virtualization',       16, 'git://git.yoctoproject.org/meta-virtualization',         'branch=thud,commit=7685c7d', ''),
+('meta-updater',              15, 'git://github.com/advancedtelematic/meta-updater.git',    'branch=warrior,commit=b64c291', ''),
+('meta-virtualization',       16, 'git://git.yoctoproject.org/meta-virtualization',         'branch=warrior,commit=343b5e2', ''),
 
 ('meta-qt5',                  20, 'git://github.com/meta-qt5/meta-qt5.git',                 'branch=warrior,commit=7d0b17a', ''),
 
-('meta-webos-backports-2.7',  30, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
-('meta-webos-backports-3.0',  31, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
-('meta-webos-backports-3.1',  32, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
+('meta-webos-backports-3.0',  30, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
+('meta-webos-backports-3.1',  31, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
 
-('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git'          'branch=thud,commit=thud-2020-05-15', ''),
+('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git',         'branch=warrior,commit=warrior-2020-05-15', ''),
 
-('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi',            'branch=thud,commit=4e5be97', ''),
+('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi',            'branch=warrior,commit=5551792', ''),
 ('meta-webos-raspberrypi',    51, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
 ('meta-webos-updater',        52, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
 ('meta-webos-virtualization', 53, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
 
 ('meta-webos-smack',          75, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
-('meta-security',             77, 'git://git.yoctoproject.org/meta-security',               'branch=thud,commit=31dc4e7', ''),
+('meta-security',             77, 'git://git.yoctoproject.org/meta-security',               'branch=warrior,commit=4f7be0d', ''),
 ]
