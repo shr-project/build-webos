@@ -70,19 +70,19 @@ webos_layers = [
 
 ('meta-updater',              15, 'git://github.com/advancedtelematic/meta-updater.git',    'branch=thud,commit=0b087a3', ''),
 ('meta-virtualization',       16, 'git://git.yoctoproject.org/meta-virtualization',         'branch=thud,commit=7685c7d', ''),
-('meta-qt5',                  20, 'git://github.com/meta-qt5/meta-qt5.git',                 'branch=warrior,commit=17187128', ''),
 
-('meta-webos-backports-2.7',  30, 'ssh://gpro.lge.com/webosose/meta-webosose',              '', ''),
-('meta-webos-backports-3.0',  31, 'ssh://gpro.lge.com/webosose/meta-webosose',              '', ''),
+('meta-qt5',                  20, 'git://github.com/meta-qt5/meta-qt5.git',                 'branch=warrior,commit=6ee18b29', ''),
 
-('meta-webos',                40, 'git://github.com/webosose/meta-webosose.git',            'branch=master,commit=82acd7142', ''),
+('meta-webos-backports-2.7',  30, 'git://github.com/shr-project/meta-webosose.git'          '', ''),
+('meta-webos-backports-3.0',  31, 'git://github.com/shr-project/meta-webosose.git'          '', ''),
+
+('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git'          'branch=thud', ''),
 
 ('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi',            'branch=thud,commit=4e5be97', ''),
-('meta-webos-raspberrypi',    51, 'git://github.com/webosose/meta-webosose.git',            '', ''),
+('meta-webos-raspberrypi',    51, 'git://github.com/shr-project/meta-webosose.git'          '', ''),
+('meta-webos-updater',        52, 'git://github.com/shr-project/meta-webosose.git'          '', ''),
+('meta-webos-virtualization', 53, 'git://github.com/shr-project/meta-webosose.git'          '', ''),
 
-('meta-webos-updater',        52, 'git://github.com/webosose/meta-webosose.git',            '', ''),
-('meta-webos-virtualization', 53, 'git://github.com/webosose/meta-webosose.git',            '', ''),
-
-('meta-webos-smack',          75, 'git://github.com/webosose/meta-webosose.git',            '', ''),
+('meta-webos-smack',          75, 'git://github.com/shr-project/meta-webosose.git'          '', ''),
 ('meta-security',             77, 'git://git.yoctoproject.org/meta-security',               'branch=thud,commit=31dc4e7', ''),
 ]
