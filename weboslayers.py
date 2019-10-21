@@ -74,16 +74,16 @@ webos_layers = [
 
 ('meta-qt6',                  20, 'https://code.qt.io/yocto/meta-qt6.git',                  'branch=6.2,commit=v6.2.1', ''),
 
-('meta-webos-backports-3.2',  33, 'https://github.com/webosose/meta-webosose',              '', ''),
-('meta-webos-backports-3.4',  35, 'https://github.com/webosose/meta-webosose',              '', ''),
+('meta-webos-backports-3.2',  33, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
+('meta-webos-backports-3.4',  35, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 
-('meta-webos',                40, 'https://github.com/webosose/meta-webosose.git',          'branch=master,commit=1e48d4b08', ''),
+('meta-webos',                40, 'https://github.com/shr-project/meta-webosose.git',       'branch=dunfell,commit=dunfell-2021-11-27', ''),
 
 ('meta-raspberrypi',          50, 'https://git.yoctoproject.org/git/meta-raspberrypi',      'branch=dunfell,commit=2e704f5', ''),
-('meta-webos-raspberrypi',    51, 'https://github.com/webosose/meta-webosose.git',          '', ''),
-('meta-webos-updater',        52, 'https://github.com/webosose/meta-webosose.git',          '', ''),
-('meta-webos-virtualization', 53, 'https://github.com/webosose/meta-webosose.git',          '', ''),
+('meta-webos-raspberrypi',    51, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
+('meta-webos-updater',        52, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
+('meta-webos-virtualization', 53, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 
-('meta-webos-smack',          75, 'https://github.com/webosose/meta-webosose.git',          '', ''),
+('meta-webos-smack',          75, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 ('meta-security',             77, 'https://git.yoctoproject.org/git/meta-security',         'branch=dunfell,commit=b76698c', ''),
 ]
