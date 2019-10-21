@@ -72,17 +72,16 @@ webos_layers = [
 ('meta-virtualization',       16, 'git://git.yoctoproject.org/meta-virtualization',         'branch=dunfell,commit=ff997b6', ''),
 ('meta-python2',              17, 'git://git.openembedded.org/meta-python2',                'branch=dunfell,commit=07dca1e', ''),
 
-('meta-qt5-compat',           19, 'git://github.com/webosose/meta-webosose',                '', ''),
+('meta-qt5-compat',           19, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
 ('meta-qt5',                  20, 'git://github.com/meta-qt5/meta-qt5.git',                 'branch=warrior,commit=6a9de2d', ''),
 
-('meta-webos',                40, 'git://github.com/webosose/meta-webosose.git',            'branch=master,commit=eb1b6acfe', ''),
+('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git',         'branch=dunfell,commit=dunfell-2021-01-21', ''),
 
 ('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi',            'branch=dunfell,commit=9879932', ''),
-('meta-webos-raspberrypi',    51, 'git://github.com/webosose/meta-webosose.git',            '', ''),
+('meta-webos-raspberrypi',    51, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
+('meta-webos-updater',        52, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
+('meta-webos-virtualization', 53, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
 
-('meta-webos-updater',        52, 'git://github.com/webosose/meta-webosose.git',            '', ''),
-('meta-webos-virtualization', 53, 'git://github.com/webosose/meta-webosose.git',            '', ''),
-
-('meta-webos-smack',          75, 'git://github.com/webosose/meta-webosose.git',            '', ''),
+('meta-webos-smack',          75, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
 ('meta-security',             77, 'git://git.yoctoproject.org/meta-security',               'branch=dunfell,commit=c74cc97', ''),
 ]
