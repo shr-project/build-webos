@@ -72,18 +72,18 @@ webos_layers = [
 ('meta-virtualization',       16, 'git://git.yoctoproject.org/meta-virtualization',         'branch=dunfell,commit=89abc62', ''),
 ('meta-python2',              17, 'git://git.openembedded.org/meta-python2',                'branch=dunfell,commit=ed4876c', ''),
 
-('meta-qt5-compat',           19, 'git://github.com/webosose/meta-webosose',                '', ''),
+('meta-qt5-compat',           19, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
 ('meta-qt5',                  20, 'git://github.com/meta-qt5/meta-qt5.git',                 'branch=warrior,commit=c7ec556', ''),
 
-('meta-webos-backports-3.2',  33, 'git://github.com/webosose/meta-webosose',                '', ''),
+('meta-webos-backports-3.2',  33, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
 
-('meta-webos',                40, 'git://github.com/webosose/meta-webosose.git',            'branch=master,commit=7436eb6aa', ''),
+('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git',         'branch=dunfell,commit=dunfell-2021-04-01', ''),
 
 ('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi',            'branch=dunfell,commit=77190af', ''),
-('meta-webos-raspberrypi',    51, 'git://github.com/webosose/meta-webosose.git',            '', ''),
-('meta-webos-updater',        52, 'git://github.com/webosose/meta-webosose.git',            '', ''),
-('meta-webos-virtualization', 53, 'git://github.com/webosose/meta-webosose.git',            '', ''),
+('meta-webos-raspberrypi',    51, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
+('meta-webos-updater',        52, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
+('meta-webos-virtualization', 53, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
 
-('meta-webos-smack',          75, 'git://github.com/webosose/meta-webosose.git',            '', ''),
+('meta-webos-smack',          75, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
 ('meta-security',             77, 'git://git.yoctoproject.org/meta-security',               'branch=dunfell,commit=653474b', ''),
 ]
