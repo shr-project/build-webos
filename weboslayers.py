@@ -75,6 +75,7 @@ webos_layers = [
 
 ('meta-webos-backports-2.7',  30, 'git://github.com/shr-project/meta-webosose.git'          '', ''),
 ('meta-webos-backports-3.0',  31, 'git://github.com/shr-project/meta-webosose.git'          '', ''),
+('meta-webos-backports-3.1',  32, 'git://github.com/shr-project/meta-webosose.git'          '', ''),
 
 ('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git'          'branch=thud', ''),
 
