@@ -68,16 +68,16 @@ webos_layers = [
 ('meta-python',               13, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
 ('meta-filesystems',          14, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
 
-('meta-updater',              15, 'git://github.com/advancedtelematic/meta-updater.git',    'branch=thud,commit=d61874d', ''),
+('meta-updater',              15, 'git://github.com/advancedtelematic/meta-updater.git',    'branch=thud,commit=544eecf', ''),
 ('meta-virtualization',       16, 'git://git.yoctoproject.org/meta-virtualization',         'branch=thud,commit=7685c7d', ''),
 
-('meta-qt5',                  20, 'git://github.com/meta-qt5/meta-qt5.git',                 'branch=warrior,commit=17187128', ''),
+('meta-qt5',                  20, 'git://github.com/meta-qt5/meta-qt5.git',                 'branch=warrior,commit=20331bd', ''),
 
 ('meta-webos-backports-2.7',  30, 'git://github.com/shr-project/meta-webosose.git'          '', ''),
 ('meta-webos-backports-3.0',  31, 'git://github.com/shr-project/meta-webosose.git'          '', ''),
 ('meta-webos-backports-3.1',  32, 'git://github.com/shr-project/meta-webosose.git'          '', ''),
 
-('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git'          'branch=thud,commit=thud-2020-01-26', ''),
+('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git'          'branch=thud,commit=thud-2020-01-28', ''),
 
 ('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi',            'branch=thud,commit=4e5be97', ''),
 ('meta-webos-raspberrypi',    51, 'git://github.com/shr-project/meta-webosose.git'          '', ''),
