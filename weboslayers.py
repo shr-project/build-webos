@@ -71,11 +71,11 @@ webos_layers = [
 ('meta-updater',              15, 'git://github.com/advancedtelematic/meta-updater.git',    'branch=zeus,commit=416a934', ''),
 ('meta-virtualization',       16, 'git://git.yoctoproject.org/meta-virtualization',         'branch=zeus,commit=69f08a9', ''),
 
-('meta-qt5',                  20, 'git://github.com/meta-qt5/meta-qt5.git',                 'branch=warrior,commit=20331bd', ''),
+('meta-qt5',                  20, 'git://github.com/meta-qt5/meta-qt5.git',                 'branch=warrior,commit=1f1afdb', ''),
 
 ('meta-webos-backports-3.1',  30, 'git://github.com/shr-project/meta-webosose.git'          '', ''),
 
-('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git',         'branch=zeus,commit=zeus-2020-03-18', ''),
+('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git',         'branch=zeus,commit=zeus-2020-04-15', ''),
 
 ('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi',            'branch=zeus,commit=0e05098', ''),
 ('meta-webos-raspberrypi',    51, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
