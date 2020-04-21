@@ -73,7 +73,7 @@ webos_layers = [
 
 ('meta-qt5',                  20, 'git://github.com/meta-qt5/meta-qt5.git',                 'branch=warrior,commit=7d0b17a', ''),
 
-('meta-webos-backports-3.1',  30, 'git://github.com/shr-project/meta-webosose.git'          '', ''),
+('meta-webos-backports-3.1',  30, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
 
 ('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git',         'branch=zeus,commit=zeus-2020-04-15', ''),
 
