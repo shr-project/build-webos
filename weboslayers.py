@@ -73,17 +73,17 @@ webos_layers = [
 
 ('meta-qt5',                  20, 'git://github.com/meta-qt5/meta-qt5.git',                 'branch=warrior,commit=7d0b17a', ''),
 
-('meta-webos-backports-2.7',  30, 'git://github.com/shr-project/meta-webosose.git'          '', ''),
-('meta-webos-backports-3.0',  31, 'git://github.com/shr-project/meta-webosose.git'          '', ''),
-('meta-webos-backports-3.1',  32, 'git://github.com/shr-project/meta-webosose.git'          '', ''),
+('meta-webos-backports-2.7',  30, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
+('meta-webos-backports-3.0',  31, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
+('meta-webos-backports-3.1',  32, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
 
-('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git'          'branch=thud,commit=thud-2020-04-15', ''),
+('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git',         'branch=thud,commit=thud-2020-04-15', ''),
 
 ('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi',            'branch=thud,commit=4e5be97', ''),
-('meta-webos-raspberrypi',    51, 'git://github.com/shr-project/meta-webosose.git'          '', ''),
-('meta-webos-updater',        52, 'git://github.com/shr-project/meta-webosose.git'          '', ''),
-('meta-webos-virtualization', 53, 'git://github.com/shr-project/meta-webosose.git'          '', ''),
+('meta-webos-raspberrypi',    51, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
+('meta-webos-updater',        52, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
+('meta-webos-virtualization', 53, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
 
-('meta-webos-smack',          75, 'git://github.com/shr-project/meta-webosose.git'          '', ''),
+('meta-webos-smack',          75, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
 ('meta-security',             77, 'git://git.yoctoproject.org/meta-security',               'branch=thud,commit=31dc4e7', ''),
 ]
