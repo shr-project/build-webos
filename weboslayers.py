@@ -71,7 +71,7 @@ webos_layers = [
 ('meta-updater',              15, 'git://github.com/advancedtelematic/meta-updater.git',    'branch=thud,commit=e1b2028', ''),
 ('meta-virtualization',       16, 'git://git.yoctoproject.org/meta-virtualization',         'branch=thud,commit=7685c7d', ''),
 
-('meta-qt5',                  20, 'git://github.com/meta-qt5/meta-qt5.git',                 'branch=warrior,commit=7d0b17a', ''),
+('meta-qt5',                  20, 'git://github.com/meta-qt5/meta-qt5.git',                 'branch=warrior,commit=90f99d8', ''),
 
 ('meta-webos-backports-2.7',  30, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
 ('meta-webos-backports-3.0',  31, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
