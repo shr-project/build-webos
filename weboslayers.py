@@ -58,30 +58,30 @@ Machines = ['qemux86', 'raspberrypi3', 'raspberrypi4']
 # github.com/openembedded repositories are read-only mirrors of the authoritative
 # repositories on git.openembedded.org
 webos_layers = [
-('bitbake',                   -1, 'git://github.com/openembedded/bitbake.git',              'branch=master,commit=04d3a792', ''),
+('bitbake',                   -1, 'git://github.com/openembedded/bitbake.git',              'branch=1.48,commit=f421de9e', ''),
 
-('meta',                       5, 'git://github.com/openembedded/openembedded-core.git',    'branch=master,commit=8d78b819c2', 'oe-core'),
+('meta',                       5, 'git://github.com/openembedded/openembedded-core.git',    'branch=gatesgarth,commit=1f26495884', 'oe-core'),
 
-('meta-oe',                   10, 'git://github.com/openembedded/meta-openembedded.git',    'branch=master,commit=2258c9a767', 'meta-oe'),
+('meta-oe',                   10, 'git://github.com/openembedded/meta-openembedded.git',    'branch=master,commit=de8198b93f', 'meta-oe'),
 ('meta-multimedia',           11, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
 ('meta-networking',           12, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
 ('meta-python',               13, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
 ('meta-filesystems',          14, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
 
-('meta-updater',              15, 'git://github.com/advancedtelematic/meta-updater.git',    'branch=master,commit=67ab5b0', ''),
-('meta-virtualization',       16, 'git://git.yoctoproject.org/meta-virtualization',         'branch=master,commit=43a5cc7', ''),
-('meta-python2',              17, 'git://git.openembedded.org/meta-python2',                'branch=master,commit=7b18fa3', ''),
+('meta-updater',              15, 'git://github.com/advancedtelematic/meta-updater.git',    'branch=master,commit=ba6a6d9', ''),
+('meta-virtualization',       16, 'git://git.yoctoproject.org/meta-virtualization',         'branch=master,commit=7a8167f', ''),
+('meta-python2',              17, 'git://git.openembedded.org/meta-python2',                'branch=gatesgarth,commit=27d2aeb', ''),
 
 ('meta-qt5-compat',           19, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
 ('meta-qt5',                  20, 'git://github.com/meta-qt5/meta-qt5.git',                 'branch=warrior,commit=9248dc7', ''),
 
-('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git',         'branch=master,commit=master-2020-10-14', ''),
+('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git',         'branch=gatesgarth,commit=gatesgarth-2020-10-20', ''),
 
-('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi',            'branch=master,commit=2324089', ''),
+('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi',            'branch=master,commit=6f85611', ''),
 ('meta-webos-raspberrypi',    51, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
 ('meta-webos-updater',        52, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
 ('meta-webos-virtualization', 53, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
 
 ('meta-webos-smack',          75, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
-('meta-security',             77, 'git://git.yoctoproject.org/meta-security',               'branch=master,commit=3ce8b75', ''),
+('meta-security',             77, 'git://git.yoctoproject.org/meta-security',               'branch=gatesgarth,commit=a67a0cb', ''),
 ]
