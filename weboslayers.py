@@ -58,18 +58,18 @@ Machines = ['qemux86', 'raspberrypi3', 'raspberrypi4']
 # github.com/openembedded repositories are read-only mirrors of the authoritative
 # repositories on git.openembedded.org
 webos_layers = [
-('bitbake',                   -1, 'git://github.com/openembedded/bitbake.git',              'branch=master,commit=9345d257', ''),
+('bitbake',                   -1, 'git://github.com/openembedded/bitbake.git',              'branch=master,commit=f3f5d6d0', ''),
 
-('meta',                       5, 'git://github.com/openembedded/openembedded-core.git',    'branch=master,commit=ea8ba9a15b', 'oe-core'),
+('meta',                       5, 'git://github.com/openembedded/openembedded-core.git',    'branch=master,commit=fd7e1a40bf', 'oe-core'),
 
-('meta-oe',                   10, 'git://github.com/openembedded/meta-openembedded.git',    'branch=master,commit=1a53121ff5', 'meta-oe'),
+('meta-oe',                   10, 'git://github.com/openembedded/meta-openembedded.git',    'branch=master,commit=164a6030b0', 'meta-oe'),
 ('meta-multimedia',           11, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
 ('meta-networking',           12, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
 ('meta-python',               13, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
 ('meta-filesystems',          14, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
 
 ('meta-updater',              15, 'git://github.com/advancedtelematic/meta-updater.git',    'branch=master,commit=ba6a6d9', ''),
-('meta-virtualization',       16, 'git://git.yoctoproject.org/meta-virtualization',         'branch=master,commit=7a8167f', ''),
+('meta-virtualization',       16, 'git://git.yoctoproject.org/meta-virtualization',         'branch=master,commit=d47e714', ''),
 ('meta-python2',              17, 'git://git.openembedded.org/meta-python2',                'branch=master,commit=c43c29e', ''),
 
 ('meta-qt5-compat',           19, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
