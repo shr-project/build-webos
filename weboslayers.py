@@ -69,13 +69,13 @@ webos_layers = [
 ('meta-filesystems',          14, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
 
 ('meta-updater',              15, 'git://github.com/advancedtelematic/meta-updater.git',    'branch=master,commit=14f693f', ''),
-('meta-virtualization',       16, 'git://git.yoctoproject.org/meta-virtualization',         'branch=master,commit=515f39e', ''),
+('meta-virtualization',       16, 'git://git.yoctoproject.org/meta-virtualization',         'branch=master,commit=82bca23', ''),
 ('meta-python2',              17, 'git://git.openembedded.org/meta-python2',                'branch=gatesgarth,commit=27d2aeb', ''),
 
 ('meta-qt5-compat',           19, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
 ('meta-qt5',                  20, 'git://github.com/meta-qt5/meta-qt5.git',                 'branch=warrior,commit=6a9de2d', ''),
 
-('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git',         'branch=gatesgarth,commit=gatesgarth-2020-11-06', ''),
+('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git',         'branch=gatesgarth,commit=gatesgarth-2020-11-10', ''),
 
 ('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi',            'branch=gatesgarth,commit=09a3c11', ''),
 ('meta-webos-raspberrypi',    51, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
