@@ -58,11 +58,11 @@ Machines = ['qemux86', 'raspberrypi3', 'raspberrypi4']
 # github.com/openembedded repositories are read-only mirrors of the authoritative
 # repositories on git.openembedded.org
 webos_layers = [
-('bitbake',                   -1, 'git://github.com/openembedded/bitbake.git',              'branch=master,commit=71aaac9e', ''),
+('bitbake',                   -1, 'git://github.com/openembedded/bitbake.git',              'branch=master,commit=efd026c2', ''),
 
-('meta',                       5, 'git://github.com/openembedded/openembedded-core.git',    'branch=master,commit=6012fffa99', 'oe-core'),
+('meta',                       5, 'git://github.com/openembedded/openembedded-core.git',    'branch=master,commit=16d31a54c5', 'oe-core'),
 
-('meta-oe',                   10, 'git://github.com/openembedded/meta-openembedded.git',    'branch=master,commit=f431022415', 'meta-oe'),
+('meta-oe',                   10, 'git://github.com/openembedded/meta-openembedded.git',    'branch=master,commit=f0b1671175', 'meta-oe'),
 ('meta-multimedia',           11, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
 ('meta-networking',           12, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
 ('meta-python',               13, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
@@ -77,7 +77,7 @@ webos_layers = [
 
 ('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git',         'branch=master,commit=master-2020-12-22', ''),
 
-('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi',            'branch=master,commit=361f42e', ''),
+('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi',            'branch=master,commit=3e2a853', ''),
 ('meta-webos-raspberrypi',    51, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
 ('meta-webos-updater',        52, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
 ('meta-webos-virtualization', 53, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
