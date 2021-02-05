@@ -77,7 +77,7 @@ webos_layers = [
 
 ('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git',         'branch=dunfell,commit=dunfell-2021-03-31', ''),
 
-('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi',            'branch=dunfell,commit=9879932', ''),
+('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi',            'branch=dunfell,commit=77190af', ''),
 ('meta-webos-raspberrypi',    51, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
 ('meta-webos-updater',        52, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
 ('meta-webos-virtualization', 53, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
