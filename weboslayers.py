@@ -62,7 +62,7 @@ webos_layers = [
 
 ('meta',                       5, 'git://github.com/openembedded/openembedded-core.git',    'branch=master,commit=6db24928d6', 'oe-core'),
 
-('meta-oe',                   10, 'git://github.com/openembedded/meta-openembedded.git',    'branch=master,commit=bb743fc71d', 'meta-oe'),
+('meta-oe',                   10, 'git://github.com/openembedded/meta-openembedded.git',    'branch=master,commit=ffc6732d9d', 'meta-oe'),
 ('meta-multimedia',           11, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
 ('meta-networking',           12, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
 ('meta-python',               13, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
@@ -70,12 +70,12 @@ webos_layers = [
 
 ('meta-updater',              15, 'git://github.com/advancedtelematic/meta-updater.git',    'branch=master,commit=070d291', ''),
 ('meta-virtualization',       16, 'git://git.yoctoproject.org/meta-virtualization',         'branch=master,commit=4218573', ''),
-('meta-python2',              17, 'git://git.openembedded.org/meta-python2',                'branch=master,commit=8dce5b3', ''),
+('meta-python2',              17, 'git://git.openembedded.org/meta-python2',                'branch=master,commit=0440152', ''),
 
 ('meta-qt5-compat',           19, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
 ('meta-qt5',                  20, 'git://github.com/meta-qt5/meta-qt5.git',                 'branch=warrior,commit=c7ec556', ''),
 
-('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git',         'branch=master,commit=master-2021-03-03', ''),
+('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git',         'branch=master,commit=master-2021-03-04', ''),
 
 ('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi',            'branch=master,commit=6897606', ''),
 ('meta-webos-raspberrypi',    51, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
