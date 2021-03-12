@@ -60,7 +60,7 @@ Machines = ['qemux86', 'raspberrypi3', 'raspberrypi4']
 webos_layers = [
 ('bitbake',                   -1, 'git://github.com/openembedded/bitbake.git',              'branch=1.46,commit=e0dd20a0', ''),
 
-('meta',                       5, 'git://github.com/openembedded/openembedded-core.git',    'branch=dunfell,commit=dd893279f3', 'oe-core'),
+('meta',                       5, 'git://github.com/openembedded/openembedded-core.git',    'branch=dunfell,commit=f5965d7482', 'oe-core'),
 
 ('meta-oe',                   10, 'git://github.com/openembedded/meta-openembedded.git',    'branch=dunfell,commit=346681e7bf', 'meta-oe'),
 ('meta-multimedia',           11, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
@@ -83,5 +83,5 @@ webos_layers = [
 ('meta-webos-virtualization', 53, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
 
 ('meta-webos-smack',          75, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
-('meta-security',             77, 'git://git.yoctoproject.org/meta-security',               'branch=dunfell,commit=c74cc97', ''),
+('meta-security',             77, 'git://git.yoctoproject.org/meta-security',               'branch=dunfell,commit=653474b', ''),
 ]
