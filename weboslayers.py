@@ -60,7 +60,7 @@ Machines = ['qemux86', 'raspberrypi3', 'raspberrypi4']
 webos_layers = [
 ('bitbake',                   -1, 'git://github.com/openembedded/bitbake.git',              'branch=1.48,commit=5d02c984', ''),
 
-('meta',                       5, 'git://github.com/openembedded/openembedded-core.git',    'branch=gatesgarth,commit=6311cb4930', 'oe-core'),
+('meta',                       5, 'git://github.com/openembedded/openembedded-core.git',    'branch=gatesgarth,commit=fdae970656', 'oe-core'),
 
 ('meta-oe',                   10, 'git://github.com/openembedded/meta-openembedded.git',    'branch=gatesgarth,commit=945f062ff0', 'meta-oe'),
 ('meta-multimedia',           11, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
@@ -68,7 +68,7 @@ webos_layers = [
 ('meta-python',               13, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
 ('meta-filesystems',          14, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
 
-('meta-updater',              15, 'git://github.com/advancedtelematic/meta-updater.git',    'branch=master,commit=070d291', ''),
+('meta-updater',              15, 'git://github.com/advancedtelematic/meta-updater.git',    'branch=master,commit=a8aaf6f', ''),
 ('meta-virtualization',       16, 'git://git.yoctoproject.org/meta-virtualization',         'branch=gatesgarth,commit=e7d1a44', ''),
 ('meta-python2',              17, 'git://git.openembedded.org/meta-python2',                'branch=gatesgarth,commit=56288c2', ''),
 
