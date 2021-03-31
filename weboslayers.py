@@ -70,7 +70,7 @@ webos_layers = [
 
 ('meta-updater',              15, 'git://github.com/advancedtelematic/meta-updater.git',    'branch=master,commit=a8aaf6f', ''),
 ('meta-virtualization',       16, 'git://git.yoctoproject.org/meta-virtualization',         'branch=gatesgarth,commit=e7d1a44', ''),
-('meta-python2',              17, 'git://git.openembedded.org/meta-python2',                'branch=gatesgarth,commit=56288c2', ''),
+('meta-python2',              17, 'git://git.openembedded.org/meta-python2',                'branch=gatesgarth,commit=ab085e3', ''),
 
 ('meta-qt5-compat',           19, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
 ('meta-qt5',                  20, 'git://github.com/meta-qt5/meta-qt5.git',                 'branch=warrior,commit=c7ec556', ''),
