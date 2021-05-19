@@ -69,7 +69,7 @@ webos_layers = [
 ('meta-filesystems',          14, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
 
 ('meta-updater',              15, 'git://github.com/advancedtelematic/meta-updater.git',    'branch=dunfell,commit=5d49b28', ''),
-('meta-virtualization',       16, 'git://git.yoctoproject.org/meta-virtualization',         'branch=dunfell,commit=99d0e9f', ''),
+('meta-virtualization',       16, 'git://git.yoctoproject.org/meta-virtualization',         'branch=dunfell,commit=cdf82b1', ''),
 ('meta-python2',              17, 'git://git.openembedded.org/meta-python2',                'branch=dunfell,commit=6b30007', ''),
 
 ('meta-qt5-compat',           19, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
