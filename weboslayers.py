@@ -58,18 +58,18 @@ Machines = ['qemux86', 'raspberrypi3', 'raspberrypi4']
 # github.com/openembedded repositories are read-only mirrors of the authoritative
 # repositories on git.openembedded.org
 webos_layers = [
-('bitbake',                   -1, 'git://github.com/openembedded/bitbake.git',              'branch=1.50,commit=731fb52e', ''),
+('bitbake',                   -1, 'git://github.com/openembedded/bitbake.git',              'branch=1.50,commit=9b2d96b2', ''),
 
 ('meta',                       5, 'git://github.com/openembedded/openembedded-core.git',    'branch=hardknott,commit=e458c15627', 'oe-core'),
 
-('meta-oe',                   10, 'git://github.com/openembedded/meta-openembedded.git',    'branch=hardknott,commit=6a7ba8f7f2', 'meta-oe'),
+('meta-oe',                   10, 'git://github.com/openembedded/meta-openembedded.git',    'branch=hardknott,commit=5a4b2ab29d', 'meta-oe'),
 ('meta-multimedia',           11, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
 ('meta-networking',           12, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
 ('meta-python',               13, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
 ('meta-filesystems',          14, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
 
 ('meta-updater',              15, 'git://github.com/advancedtelematic/meta-updater.git',    'branch=master,commit=a0d9835', ''),
-('meta-virtualization',       16, 'git://git.yoctoproject.org/meta-virtualization',         'branch=hardknott,commit=32a6cb2', ''),
+('meta-virtualization',       16, 'git://git.yoctoproject.org/meta-virtualization',         'branch=hardknott,commit=679a22e', ''),
 ('meta-python2',              17, 'git://git.openembedded.org/meta-python2',                'branch=hardknott,commit=8db9e4f', ''),
 
 ('meta-qt6',                  20, 'git://code.qt.io/yocto/meta-qt6.git',                    'branch=6.2,commit=9a4453a', ''),
