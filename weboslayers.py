@@ -72,7 +72,7 @@ webos_layers = [
 ('meta-virtualization',       16, 'git://git.yoctoproject.org/meta-virtualization',         'branch=master,commit=ec521bd', ''),
 ('meta-python2',              17, 'git://git.openembedded.org/meta-python2',                'branch=master,commit=f522fa7', ''),
 
-('meta-qt6',                  20, 'git://code.qt.io/yocto/meta-qt6.git',                    'branch=6.2,commit=3b3572a', ''),
+('meta-qt6',                  20, 'git://github.com/shr-project/meta-qt6.git',              'branch=jansa/6.2-3b3572a-overrides-syntax,commit=fc3471b', ''),
 
 ('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git',         'branch=master,commit=master-2021-09-09', ''),
 
