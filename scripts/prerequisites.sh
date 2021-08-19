@@ -18,7 +18,7 @@
 
 check_sanity=true
 usage="$0 [--help|-h] [--version|-V] [--force|-f]"
-version="2.2.7"
+version="2.2.8"
 statusfile="/etc/webos.prerequisites"
 
 for i ; do
@@ -130,10 +130,7 @@ essential="\
     iputils-ping \
     liblz4-tool \
     locales \
-    python \
-    python2.7 \
     python3 \
-    texinfo \
     wget \
     zstd \
 "
