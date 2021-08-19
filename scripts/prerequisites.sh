@@ -18,7 +18,7 @@
 
 check_sanity=true
 usage="$0 [--help|-h] [--version|-V] [--force|-f]"
-version="2.2.5"
+version="2.2.6"
 statusfile="/etc/webos.prerequisites"
 
 for i ; do
@@ -124,16 +124,18 @@ essential="\
     chrpath \
     cpio \
     diffstat \
+    file \
     gawk \
     git \
     iputils-ping \
+    liblz4-tool \
     locales \
-    lsb-release \
     python \
     python2.7 \
     python3 \
     texinfo \
     wget \
+    zstd \
 "
 
 # add python3-distutils only for 18.04 and 20.04 (and later should be added for newer)
