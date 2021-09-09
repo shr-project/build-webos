@@ -58,9 +58,9 @@ Machines = ['qemux86', 'raspberrypi3', 'raspberrypi4']
 # github.com/openembedded repositories are read-only mirrors of the authoritative
 # repositories on git.openembedded.org
 webos_layers = [
-('bitbake',                   -1, 'git://github.com/openembedded/bitbake.git',              'branch=master,commit=ae24a0f2', ''),
+('bitbake',                   -1, 'git://github.com/openembedded/bitbake.git',              'branch=1.52,commit=ae24a0f2', ''),
 
-('meta',                       5, 'git://github.com/openembedded/openembedded-core.git',    'branch=master,commit=ec20e1a0e0', 'oe-core'),
+('meta',                       5, 'git://github.com/openembedded/openembedded-core.git',    'branch=honister,commit=ec20e1a0e0', 'oe-core'),
 
 ('meta-oe',                   10, 'git://github.com/openembedded/meta-openembedded.git',    'branch=master,commit=c2a8057647', 'meta-oe'),
 ('meta-multimedia',           11, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
@@ -70,11 +70,11 @@ webos_layers = [
 
 ('meta-updater',              15, 'git://github.com/advancedtelematic/meta-updater.git',    'branch=master,commit=f2e740c', ''),
 ('meta-virtualization',       16, 'git://git.yoctoproject.org/meta-virtualization',         'branch=master,commit=ec521bd', ''),
-('meta-python2',              17, 'git://git.openembedded.org/meta-python2',                'branch=master,commit=f522fa7', ''),
+('meta-python2',              17, 'git://git.openembedded.org/meta-python2',                'branch=honister,commit=f522fa7', ''),
 
 ('meta-qt6',                  20, 'git://github.com/shr-project/meta-qt6.git',              'branch=jansa/6.2-3b3572a-overrides-syntax,commit=fc3471b', ''),
 
-('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git',         'branch=master,commit=master-2021-09-09', ''),
+('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git',         'branch=honister,commit=honister-2021-09-09', ''),
 
 ('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi',            'branch=master,commit=a6fa6b3', ''),
 ('meta-webos-raspberrypi',    51, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
