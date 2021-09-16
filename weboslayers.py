@@ -58,11 +58,11 @@ Machines = ['qemux86', 'raspberrypi3', 'raspberrypi4']
 # github.com/openembedded repositories are read-only mirrors of the authoritative
 # repositories on git.openembedded.org
 webos_layers = [
-('bitbake',                   -1, 'git://github.com/openembedded/bitbake.git',              'branch=1.52,commit=250fa17f', ''),
+('bitbake',                   -1, 'git://github.com/openembedded/bitbake.git',              'branch=1.52,commit=7e0af70f', ''),
 
-('meta',                       5, 'git://github.com/openembedded/openembedded-core.git',    'branch=honister,commit=50154869b4', 'oe-core'),
+('meta',                       5, 'git://github.com/openembedded/openembedded-core.git',    'branch=honister,commit=7b7dfbfaed', 'oe-core'),
 
-('meta-oe',                   10, 'git://github.com/openembedded/meta-openembedded.git',    'branch=master,commit=c508760614', 'meta-oe'),
+('meta-oe',                   10, 'git://github.com/openembedded/meta-openembedded.git',    'branch=master,commit=5eb46e36a6', 'meta-oe'),
 ('meta-multimedia',           11, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
 ('meta-networking',           12, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
 ('meta-python',               13, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
@@ -74,7 +74,7 @@ webos_layers = [
 
 ('meta-qt6',                  20, 'git://github.com/shr-project/meta-qt6.git',              'branch=jansa/6.2-3b3572a-overrides-syntax,commit=fc3471b', ''),
 
-('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git',         'branch=honister,commit=honister-2021-09-13', ''),
+('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git',         'branch=honister,commit=honister-2021-09-16', ''),
 
 ('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi',            'branch=master,commit=a6fa6b3', ''),
 ('meta-webos-raspberrypi',    51, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
@@ -82,5 +82,5 @@ webos_layers = [
 ('meta-webos-virtualization', 53, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
 
 ('meta-webos-smack',          75, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
-('meta-security',             77, 'git://git.yoctoproject.org/meta-security',               'branch=master,commit=e0fca90', ''),
+('meta-security',             77, 'git://git.yoctoproject.org/meta-security',               'branch=master,commit=b233768', ''),
 ]
