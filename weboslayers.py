@@ -58,11 +58,11 @@ Machines = ['qemux86', 'raspberrypi3', 'raspberrypi4']
 # github.com/openembedded repositories are read-only mirrors of the authoritative
 # repositories on git.openembedded.org
 webos_layers = [
-('bitbake',                   -1, 'git://github.com/openembedded/bitbake.git',              'branch=1.46,commit=b4117231', ''),
+('bitbake',                   -1, 'git://github.com/openembedded/bitbake.git',              'branch=1.46,commit=93094705', ''),
 
 ('meta',                       5, 'git://github.com/openembedded/openembedded-core.git',    'branch=dunfell,commit=d12c44df66', 'oe-core'),
 
-('meta-oe',                   10, 'git://github.com/openembedded/meta-openembedded.git',    'branch=dunfell,commit=3cf22d1588', 'meta-oe'),
+('meta-oe',                   10, 'git://github.com/openembedded/meta-openembedded.git',    'branch=dunfell,commit=814eec96c2', 'meta-oe'),
 ('meta-multimedia',           11, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
 ('meta-networking',           12, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
 ('meta-python',               13, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
@@ -77,7 +77,7 @@ webos_layers = [
 ('meta-webos-backports-3.2',  33, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
 ('meta-webos-backports-3.4',  35, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
 
-('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git',         'branch=dunfell,commit=dunfell-2021-10-19', ''),
+('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git',         'branch=dunfell,commit=dunfell-2021-10-20', ''),
 
 ('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi',            'branch=dunfell,commit=59c2d6f', ''),
 ('meta-webos-raspberrypi',    51, 'git://github.com/shr-project/meta-webosose.git',         '', ''),
