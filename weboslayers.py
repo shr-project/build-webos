@@ -58,7 +58,7 @@ Machines = ['qemux86', 'raspberrypi3', 'raspberrypi4']
 # github.com/openembedded repositories are read-only mirrors of the authoritative
 # repositories on git.openembedded.org
 webos_layers = [
-('bitbake',                   -1, 'https://github.com/openembedded/bitbake.git',            'branch=1.52,commit=78949cf3', ''),
+('bitbake',                   -1, 'https://github.com/openembedded/bitbake.git',            'branch=1.52,commit=1ac73638', ''),
 
 ('meta',                       5, 'https://github.com/openembedded/openembedded-core.git',  'branch=honister,commit=6ca6c9c12c', 'oe-core'),
 
@@ -68,8 +68,8 @@ webos_layers = [
 ('meta-python',               13, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
 ('meta-filesystems',          14, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
 
-('meta-updater',              15, 'https://github.com/uptane/meta-updater.git',             'branch=honister,commit=d9343af', ''),
-('meta-virtualization',       16, 'https://git.yoctoproject.org/git/meta-virtualization',   'branch=honister,commit=8bff038', ''),
+('meta-updater',              15, 'https://github.com/uptane/meta-updater.git',             'branch=honister,commit=3c5e1c5', ''),
+('meta-virtualization',       16, 'https://git.yoctoproject.org/git/meta-virtualization',   'branch=honister,commit=d3d8d2d', ''),
 ('meta-python2',              17, 'https://git.openembedded.org/meta-python2',              'branch=honister,commit=5243d50', ''),
 
 ('meta-qt6',                  20, 'https://code.qt.io/yocto/meta-qt6.git',                  'branch=6.2,commit=181cbf3', ''),
