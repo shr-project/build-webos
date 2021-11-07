@@ -69,7 +69,7 @@ webos_layers = [
 ('meta-filesystems',          14, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
 
 ('meta-updater',              15, 'https://github.com/uptane/meta-updater.git',             'branch=dunfell,commit=a3b8398', ''),
-('meta-virtualization',       16, 'https://git.yoctoproject.org/git/meta-virtualization',   'branch=dunfell,commit=e0f06c2', ''),
+('meta-virtualization',       16, 'https://git.yoctoproject.org/git/meta-virtualization',   'branch=dunfell,commit=180241e', ''),
 ('meta-python2',              17, 'https://git.openembedded.org/meta-python2',              'branch=dunfell,commit=b901080', ''),
 
 ('meta-qt6',                  20, 'https://code.qt.io/yocto/meta-qt6.git',                  'branch=6.2,commit=181cbf3', ''),
@@ -77,7 +77,7 @@ webos_layers = [
 ('meta-webos-backports-3.2',  33, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 ('meta-webos-backports-3.4',  35, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 
-('meta-webos',                40, 'https://github.com/shr-project/meta-webosose.git',       'branch=dunfell,commit=dunfell-2021-11-05', ''),
+('meta-webos',                40, 'https://github.com/shr-project/meta-webosose.git',       'branch=dunfell,commit=dunfell-2021-11-07', ''),
 
 ('meta-raspberrypi',          50, 'https://git.yoctoproject.org/git/meta-raspberrypi',      'branch=dunfell,commit=59c2d6f', ''),
 ('meta-webos-raspberrypi',    51, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
