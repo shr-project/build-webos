@@ -58,9 +58,9 @@ Machines = ['qemux86', 'qemux86-64', 'qemuarm', 'raspberrypi3', 'raspberrypi3-64
 # github.com/openembedded repositories are read-only mirrors of the authoritative
 # repositories on git.openembedded.org
 webos_layers = [
-('bitbake',                   -1, 'https://github.com/openembedded/bitbake.git',            'branch=1.50,commit=bf59c008', ''),
+('bitbake',                   -1, 'https://github.com/openembedded/bitbake.git',            'branch=1.50,commit=b7c60b97', ''),
 
-('meta',                       5, 'https://github.com/openembedded/openembedded-core.git',  'branch=hardknott,commit=0ca080a23c', 'oe-core'),
+('meta',                       5, 'https://github.com/openembedded/openembedded-core.git',  'branch=hardknott,commit=e95ccf6f7f', 'oe-core'),
 
 ('meta-oe',                   10, 'https://github.com/openembedded/meta-openembedded.git',  'branch=hardknott,commit=0b0ab6a2d2', 'meta-oe'),
 ('meta-multimedia',           11, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
@@ -69,7 +69,7 @@ webos_layers = [
 ('meta-filesystems',          14, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
 
 ('meta-updater',              15, 'https://github.com/uptane/meta-updater.git',             'branch=hardknott,commit=3c5e1c5', ''),
-('meta-virtualization',       16, 'https://git.yoctoproject.org/git/meta-virtualization',   'branch=hardknott,commit=3415134', ''),
+('meta-virtualization',       16, 'https://git.yoctoproject.org/git/meta-virtualization',   'branch=hardknott,commit=be2c9d6', ''),
 ('meta-python2',              17, 'https://git.openembedded.org/meta-python2',              'branch=hardknott,commit=8db9e4f', ''),
 
 ('meta-qt6',                  20, 'https://code.qt.io/yocto/meta-qt6.git',                  'branch=6.2,commit=v6.2.1', ''),
@@ -78,7 +78,7 @@ webos_layers = [
 
 ('meta-webos',                40, 'https://github.com/shr-project/meta-webosose.git',       'branch=hardknott,commit=hardknott-2021-11-26', ''),
 
-('meta-raspberrypi',          50, 'https://git.yoctoproject.org/git/meta-raspberrypi',      'branch=hardknott,commit=9d37282', ''),
+('meta-raspberrypi',          50, 'https://git.yoctoproject.org/git/meta-raspberrypi',      'branch=hardknott,commit=0dc08f9', ''),
 ('meta-webos-raspberrypi',    51, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 ('meta-webos-updater',        52, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 ('meta-webos-virtualization', 53, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
