@@ -58,11 +58,11 @@ Machines = ['qemux86', 'qemux86-64', 'qemuarm', 'raspberrypi3', 'raspberrypi3-64
 # github.com/openembedded repositories are read-only mirrors of the authoritative
 # repositories on git.openembedded.org
 webos_layers = [
-('bitbake',                   -1, 'https://github.com/openembedded/bitbake.git',            'branch=master,commit=7e1ca7ab', ''),
+('bitbake',                   -1, 'https://github.com/openembedded/bitbake.git',            'branch=master,commit=bdf5739c', ''),
 
-('meta',                       5, 'https://github.com/openembedded/openembedded-core.git',  'branch=master,commit=ece8f1471d', 'oe-core'),
+('meta',                       5, 'https://github.com/openembedded/openembedded-core.git',  'branch=master,commit=24c1b8346a', 'oe-core'),
 
-('meta-oe',                   10, 'https://github.com/openembedded/meta-openembedded.git',  'branch=master,commit=83754792c0', 'meta-oe'),
+('meta-oe',                   10, 'https://github.com/openembedded/meta-openembedded.git',  'branch=master,commit=245afbc8bd', 'meta-oe'),
 ('meta-multimedia',           11, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
 ('meta-networking',           12, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
 ('meta-python',               13, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
@@ -76,11 +76,11 @@ webos_layers = [
 
 ('meta-webos',                40, 'https://github.com/shr-project/meta-webosose.git',       'branch=master,commit=master-2021-12-28', ''),
 
-('meta-raspberrypi',          50, 'https://git.yoctoproject.org/git/meta-raspberrypi',      'branch=master,commit=8367553', ''),
+('meta-raspberrypi',          50, 'https://git.yoctoproject.org/git/meta-raspberrypi',      'branch=master,commit=58cc662', ''),
 ('meta-webos-raspberrypi',    51, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 ('meta-webos-updater',        52, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 ('meta-webos-virtualization', 53, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 
 ('meta-webos-smack',          75, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
-('meta-security',             77, 'https://git.yoctoproject.org/git/meta-security',         'branch=master,commit=e4a4981', ''),
+('meta-security',             77, 'https://git.yoctoproject.org/git/meta-security',         'branch=master,commit=126860d', ''),
 ]
