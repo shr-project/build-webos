@@ -58,18 +58,18 @@ Machines = ['qemux86', 'qemux86-64', 'qemuarm', 'raspberrypi3', 'raspberrypi3-64
 # github.com/openembedded repositories are read-only mirrors of the authoritative
 # repositories on git.openembedded.org
 webos_layers = [
-('bitbake',                   -1, 'https://github.com/openembedded/bitbake.git',            'branch=1.46,commit=7fdd43c5', ''),
+('bitbake',                   -1, 'https://github.com/openembedded/bitbake.git',            'branch=1.46,commit=be6ecc16', ''),
 
-('meta',                       5, 'https://github.com/openembedded/openembedded-core.git',  'branch=dunfell,commit=f61fcb6e17', 'oe-core'),
+('meta',                       5, 'https://github.com/openembedded/openembedded-core.git',  'branch=dunfell,commit=f3be01483b', 'oe-core'),
 
-('meta-oe',                   10, 'https://github.com/openembedded/meta-openembedded.git',  'branch=dunfell,commit=7889158dcd', 'meta-oe'),
+('meta-oe',                   10, 'https://github.com/openembedded/meta-openembedded.git',  'branch=dunfell,commit=ab9fca485e', 'meta-oe'),
 ('meta-multimedia',           11, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
 ('meta-networking',           12, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
 ('meta-python',               13, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
 ('meta-filesystems',          14, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
 
 ('meta-updater',              15, 'https://github.com/uptane/meta-updater.git',             'branch=dunfell,commit=5546c92', ''),
-('meta-virtualization',       16, 'https://git.yoctoproject.org/git/meta-virtualization',   'branch=dunfell,commit=180241e', ''),
+('meta-virtualization',       16, 'https://git.yoctoproject.org/git/meta-virtualization',   'branch=dunfell,commit=c5f61e5', ''),
 ('meta-python2',              17, 'https://git.openembedded.org/meta-python2',              'branch=dunfell,commit=b901080', ''),
 
 ('meta-qt6',                  20, 'https://code.qt.io/yocto/meta-qt6.git',                  'branch=6.2.2,commit=bbf0d91', ''),
