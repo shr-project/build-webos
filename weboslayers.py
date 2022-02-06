@@ -68,7 +68,7 @@ webos_layers = [
 ('meta-python',               13, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
 ('meta-filesystems',          14, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
 
-('meta-updater',              15, 'https://github.com/uptane/meta-updater.git',             'branch=dunfell,commit=5546c92', ''),
+('meta-updater',              15, 'https://github.com/uptane/meta-updater.git',             'branch=dunfell,commit=a5306ae', ''),
 ('meta-virtualization',       16, 'https://git.yoctoproject.org/git/meta-virtualization',   'branch=dunfell,commit=c5f61e5', ''),
 ('meta-python2',              17, 'https://git.openembedded.org/meta-python2',              'branch=dunfell,commit=b901080', ''),
 
