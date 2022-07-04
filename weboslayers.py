@@ -58,9 +58,9 @@ Machines = ['qemux86', 'qemux86-64', 'qemuarm', 'raspberrypi3', 'raspberrypi3-64
 # github.com/openembedded repositories are read-only mirrors of the authoritative
 # repositories on git.openembedded.org
 webos_layers = [
-('bitbake',                   -1, 'https://github.com/openembedded/bitbake.git',            'branch=2.0,commit=494fcfcb', ''),
+('bitbake',                   -1, 'https://github.com/openembedded/bitbake.git',            'branch=2.0,commit=b8fd6f5d', ''),
 
-('meta',                       5, 'https://github.com/openembedded/openembedded-core.git',  'branch=kirkstone,commit=b2d10487f8', 'oe-core'),
+('meta',                       5, 'https://github.com/openembedded/openembedded-core.git',  'branch=kirkstone,commit=eea52e0c3d', 'oe-core'),
 
 ('meta-oe',                   10, 'https://github.com/openembedded/meta-openembedded.git',  'branch=kirkstone,commit=fcc7d7eae8', 'meta-oe'),
 ('meta-multimedia',           11, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
@@ -68,8 +68,8 @@ webos_layers = [
 ('meta-python',               13, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
 ('meta-filesystems',          14, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
 
-('meta-updater',              15, 'https://github.com/uptane/meta-updater.git',             'branch=master,commit=6f3016d', ''),
-('meta-virtualization',       16, 'https://git.yoctoproject.org/git/meta-virtualization',   'branch=kirkstone,commit=0d35c19', ''),
+('meta-updater',              15, 'https://github.com/uptane/meta-updater.git',             'branch=master,commit=073c32d', ''),
+('meta-virtualization',       16, 'https://git.yoctoproject.org/git/meta-virtualization',   'branch=kirkstone,commit=16d6581', ''),
 
 ('meta-qt6',                  20, 'https://code.qt.io/yocto/meta-qt6.git',                  'branch=6.3.0,commit=f7c9337', ''),
 
