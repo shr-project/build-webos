@@ -62,7 +62,7 @@ webos_layers = [
 
 ('meta',                       5, 'https://github.com/openembedded/openembedded-core.git',  'branch=langdale,commit=e0dc0f4a15', 'oe-core'),
 
-('meta-oe',                   10, 'https://github.com/openembedded/meta-openembedded.git',  'branch=langdale,commit=c5668905a6', 'meta-oe'),
+('meta-oe',                   10, 'https://github.com/openembedded/meta-openembedded.git',  'branch=langdale,commit=c354f92778', 'meta-oe'),
 ('meta-multimedia',           11, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
 ('meta-networking',           12, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
 ('meta-python',               13, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
@@ -75,7 +75,7 @@ webos_layers = [
 
 ('meta-webos',                40, 'https://github.com/shr-project/meta-webosose.git',       'branch=langdale,commit=langdale-2022-11-15', ''),
 
-('meta-raspberrypi',          50, 'https://github.com/agherzan/meta-raspberrypi.git',       'branch=langdale,commit=722c516', ''),
+('meta-raspberrypi',          50, 'https://github.com/agherzan/meta-raspberrypi.git',       'branch=langdale,commit=6f5771d', ''),
 ('meta-webos-raspberrypi',    51, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 ('meta-webos-updater',        52, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 ('meta-webos-virtualization', 53, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
