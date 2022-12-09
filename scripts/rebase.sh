@@ -2,7 +2,7 @@
 
 SCRIPTDIR=/OE/lge/layers/scripts
 
-RELEASE="styhead"
+RELEASE="walnascar"
 BUILD="webos"
 
 BUILD_BRANCH="jansa/${RELEASE}"
