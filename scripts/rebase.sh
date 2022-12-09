@@ -2,10 +2,10 @@
 
 SCRIPTDIR=/OE/lge/layers/scripts
 
-RELEASE="scarthgap"
+RELEASE="styhead"
 BUILD="webos"
 
-BUILD_BRANCH="jansa/nodistro-${RELEASE}"
+BUILD_BRANCH="jansa/nodistro-styhead"
 BRANCH="jansa/${RELEASE}"
 BASE_LAYERS=" \
   meta-webosose \
