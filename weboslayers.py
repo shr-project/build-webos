@@ -53,34 +53,34 @@
 Distribution = "webos"
 
 # Supported MACHINE-s
-Machines = ['qemux86', 'qemux86-64', 'qemuarm', 'raspberrypi3', 'raspberrypi3-64', 'raspberrypi4', 'raspberrypi4-64']
+Machines = ['qemux86', 'qemux86copy', 'qemux86-64', 'qemuarm', 'raspberrypi3', 'raspberrypi3-64', 'raspberrypi4', 'raspberrypi4-64']
 
 # github.com/openembedded repositories are read-only mirrors of the authoritative
 # repositories on git.openembedded.org
 webos_layers = [
-('bitbake',                   -1, 'https://github.com/openembedded/bitbake.git',            'branch=2.8,commit=139f61fe9ee', ''),
+('bitbake',                   -1, 'https://git.openembedded.org/bitbake-contrib',           'branch=jansa/2.8', 'bitbake'),
 
-('meta',                       5, 'https://github.com/openembedded/openembedded-core.git',  'branch=scarthgap,commit=cfa97a50e06', 'oe-core'),
+('meta',                       5, 'https://git.openembedded.org/openembedded-core-contrib', 'branch=jansa/scarthgap', 'oe-core'),
 
-('meta-oe',                   10, 'https://github.com/openembedded/meta-openembedded.git',  'branch=scarthgap,commit=727811eaf25', 'meta-oe'),
-('meta-multimedia',           11, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
-('meta-networking',           12, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
-('meta-python',               13, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
-('meta-filesystems',          14, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
+('meta-oe',                   10, 'https://git.openembedded.org/meta-openembedded-contrib', 'branch=jansa/scarthgap', 'meta-oe'),
+('meta-multimedia',           11, 'https://git.openembedded.org/meta-openembedded-contrib', '', 'meta-oe'),
+('meta-networking',           12, 'https://git.openembedded.org/meta-openembedded-contrib', '', 'meta-oe'),
+('meta-python',               13, 'https://git.openembedded.org/meta-openembedded-contrib', '', 'meta-oe'),
+('meta-filesystems',          14, 'https://git.openembedded.org/meta-openembedded-contrib', '', 'meta-oe'),
 
-('meta-clang',                15, 'https://github.com/kraj/meta-clang.git',                 'branch=scarthgap,commit=eea5ec23155', ''),
-('meta-virtualization',       16, 'https://git.yoctoproject.org/git/meta-virtualization',   'branch=scarthgap,commit=9e040ee8dd6', ''),
+('meta-clang',                15, 'https://github.com/shr-project/meta-clang.git',          'branch=jansa/scarthgap', ''),
+('meta-virtualization',       16, 'https://github.com/shr-project/meta-virtualization',     'branch=jansa/scarthgap', ''),
 
-('meta-qt6',                  20, 'https://code.qt.io/yocto/meta-qt6.git',                  'branch=6.8.1,commit=f4ef1331f0c', ''),
+('meta-qt6',                  20, 'https://github.com/shr-project/meta-qt6',                'branch=jansa/scarthgap', ''),
 
 ('meta-webos-backports-5.1',  34, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 ('meta-webos-backports-5.2',  35, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 
-('meta-webos',                40, 'https://github.com/shr-project/meta-webosose.git',       'branch=scarthgap,commit=scarthgap-2025-07-05', ''),
+('meta-webos',                40, 'https://github.com/shr-project/meta-webosose.git',       'branch=jansa/scarthgap', ''),
 
-('meta-raspberrypi',          50, 'https://github.com/agherzan/meta-raspberrypi.git',       'branch=scarthgap,commit=48452445d77', ''),
+('meta-raspberrypi',          50, 'https://github.com/shr-project/meta-raspberrypi',        'branch=jansa/scarthgap', ''),
 ('meta-webos-raspberrypi',    51, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 ('meta-webos-virtualization', 53, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 
-('meta-security',             76, 'https://git.yoctoproject.org/git/meta-security',         'branch=scarthgap,commit=bc865c5276c', ''),
+('meta-security',             76, 'https://github.com/shr-project/meta-security',           'branch=jansa/scarthgap', ''),
 ]
