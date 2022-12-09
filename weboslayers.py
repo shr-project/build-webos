@@ -53,25 +53,25 @@
 Distribution = "webos"
 
 # Supported MACHINE-s
-Machines = ['qemux86', 'qemux86-64', 'qemuarm', 'raspberrypi3', 'raspberrypi3-64', 'raspberrypi4', 'raspberrypi4-64']
+Machines = ['qemux86', 'qemux86copy', 'qemux86-64', 'qemuarm', 'raspberrypi3', 'raspberrypi3-64', 'raspberrypi4', 'raspberrypi4-64']
 
 # github.com/openembedded repositories are read-only mirrors of the authoritative
 # repositories on git.openembedded.org
 webos_layers = [
-('bitbake',                   -1, 'https://github.com/openembedded/bitbake.git',            'branch=2.0,commit=eb5c1ce6b', ''),
+('bitbake',                   -1, 'https://git.openembedded.org/bitbake-contrib',           'branch=jansa/2.0', 'bitbake'),
 
-('meta',                       5, 'https://github.com/openembedded/openembedded-core.git',  'branch=kirkstone,commit=f09fca692f', 'oe-core'),
+('meta',                       5, 'https://git.openembedded.org/openembedded-core-contrib', 'branch=jansa/kirkstone', 'oe-core'),
 
-('meta-oe',                   10, 'https://github.com/openembedded/meta-openembedded.git',  'branch=kirkstone,commit=dd3d2293ff', 'meta-oe'),
-('meta-multimedia',           11, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
-('meta-networking',           12, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
-('meta-python',               13, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
-('meta-filesystems',          14, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
+('meta-oe',                   10, 'https://git.openembedded.org/meta-openembedded-contrib', 'branch=jansa/kirkstone', 'meta-oe'),
+('meta-multimedia',           11, 'https://git.openembedded.org/meta-openembedded-contrib', '', 'meta-oe'),
+('meta-networking',           12, 'https://git.openembedded.org/meta-openembedded-contrib', '', 'meta-oe'),
+('meta-python',               13, 'https://git.openembedded.org/meta-openembedded-contrib', '', 'meta-oe'),
+('meta-filesystems',          14, 'https://git.openembedded.org/meta-openembedded-contrib', '', 'meta-oe'),
 
-('meta-clang',                15, 'https://github.com/kraj/meta-clang.git',                 'branch=kirkstone,commit=8bc893d', ''),
-('meta-virtualization',       17, 'https://git.yoctoproject.org/git/meta-virtualization',   'branch=kirkstone,commit=02a6c00d', ''),
+('meta-clang',                15, 'https://github.com/shr-project/meta-clang.git',          'branch=jansa/kirkstone', ''),
+('meta-virtualization',       16, 'https://github.com/shr-project/meta-virtualization',     'branch=jansa/kirkstone', ''),
 
-('meta-qt6',                  20, 'https://code.qt.io/yocto/meta-qt6.git',                  'branch=6.6.0,commit=6c474cf', ''),
+('meta-qt6',                  20, 'https://github.com/shr-project/meta-qt6',                'branch=jansa/kirkstone', ''),
 
 ('meta-webos-backports-4.1',  30, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 ('meta-webos-backports-4.2',  31, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
@@ -79,11 +79,11 @@ webos_layers = [
 ('meta-webos-backports-5.0',  33, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 ('meta-webos-backports-5.1',  34, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 
-('meta-webos',                40, 'https://github.com/shr-project/meta-webosose.git',       'branch=kirkstone,commit=kirkstone-2024-07-10', ''),
+('meta-webos',                40, 'https://github.com/shr-project/meta-webosose.git',       'branch=jansa/kirkstone', ''),
 
-('meta-raspberrypi',          50, 'https://github.com/agherzan/meta-raspberrypi.git',       'branch=kirkstone,commit=d7544f3', ''),
+('meta-raspberrypi',          50, 'https://github.com/shr-project/meta-raspberrypi',        'branch=jansa/kirkstone', ''),
 ('meta-webos-raspberrypi',    51, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 ('meta-webos-virtualization', 53, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 
-('meta-security',             76, 'https://git.yoctoproject.org/git/meta-security',         'branch=kirkstone,commit=353078b', ''),
+('meta-security',             76, 'https://github.com/shr-project/meta-security',           'branch=jansa/kirkstone', ''),
 ]
