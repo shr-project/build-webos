@@ -58,28 +58,26 @@ Machines = ['qemux86', 'qemux86copy', 'qemux86-64', 'qemuarm', 'raspberrypi3', '
 # github.com/openembedded repositories are read-only mirrors of the authoritative
 # repositories on git.openembedded.org
 webos_layers = [
-('bitbake',                   -1, 'https://git.openembedded.org/bitbake-contrib',           'branch=jansa/styhead', 'bitbake'),
+('bitbake',                   -1, 'https://git.openembedded.org/bitbake-contrib',           'branch=jansa/2.12', 'bitbake'),
 
-('meta',                       5, 'https://git.openembedded.org/openembedded-core-contrib', 'branch=jansa/styhead', 'oe-core'),
+('meta',                       5, 'https://git.openembedded.org/openembedded-core-contrib', 'branch=jansa/walnascar', 'oe-core'),
 
-('meta-oe',                   10, 'https://git.openembedded.org/meta-openembedded-contrib', 'branch=jansa/styhead', 'meta-oe'),
+('meta-oe',                   10, 'https://git.openembedded.org/meta-openembedded-contrib', 'branch=jansa/walnascar', 'meta-oe'),
 ('meta-multimedia',           11, 'https://git.openembedded.org/meta-openembedded-contrib', '', 'meta-oe'),
 ('meta-networking',           12, 'https://git.openembedded.org/meta-openembedded-contrib', '', 'meta-oe'),
 ('meta-python',               13, 'https://git.openembedded.org/meta-openembedded-contrib', '', 'meta-oe'),
 ('meta-filesystems',          14, 'https://git.openembedded.org/meta-openembedded-contrib', '', 'meta-oe'),
 
-('meta-clang',                15, 'https://github.com/shr-project/meta-clang.git',          'branch=jansa/styhead', ''),
-('meta-virtualization',       16, 'https://github.com/shr-project/meta-virtualization',     'branch=jansa/styhead', ''),
+('meta-clang',                15, 'https://github.com/shr-project/meta-clang.git',          'branch=jansa/walnascar', ''),
+('meta-virtualization',       16, 'https://github.com/shr-project/meta-virtualization',     'branch=jansa/walnascar', ''),
 
-('meta-qt6',                  20, 'https://github.com/shr-project/meta-qt6',                'branch=jansa/styhead', ''),
+('meta-qt6',                  20, 'https://github.com/shr-project/meta-qt6',                'branch=jansa/walnascar', ''),
 
-('meta-webos-backports-5.2',  35, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
+('meta-webos',                40, 'https://github.com/shr-project/meta-webosose.git',       'branch=jansa/walnascar', ''),
 
-('meta-webos',                40, 'https://github.com/shr-project/meta-webosose.git',       'branch=jansa/styhead', ''),
-
-('meta-raspberrypi',          50, 'https://github.com/shr-project/meta-raspberrypi',        'branch=jansa/styhead', ''),
+('meta-raspberrypi',          50, 'https://github.com/shr-project/meta-raspberrypi',        'branch=jansa/walnascar', ''),
 ('meta-webos-raspberrypi',    51, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 ('meta-webos-virtualization', 53, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 
-('meta-security',             76, 'https://github.com/shr-project/meta-security',           'branch=jansa/styhead', ''),
+('meta-security',             76, 'https://github.com/shr-project/meta-security',           'branch=jansa/walnascar', ''),
 ]
