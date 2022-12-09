@@ -2,7 +2,7 @@
 
 SCRIPTDIR=/OE/lge/layers/scripts
 
-RELEASE="kirkstone"
+RELEASE="langdale"
 BUILD="webos"
 
 BUILD_BRANCH="jansa/${RELEASE}"
