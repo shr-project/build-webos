@@ -8,6 +8,8 @@ BRANCHES="\
   scarthgap \
   styhead \
   walnascar \
+  whinlatter \
+  master \
 "
 ${SCRIPTDIR}/rebase-multiple.sh ${BASE} "${BRANCHES}" $1
 
@@ -17,6 +19,8 @@ BRANCHES="\
   jansa/scarthgap \
   jansa/styhead \
   jansa/walnascar \
+  jansa/whinlatter \
+  jansa/master \
 "
 ${SCRIPTDIR}/rebase-multiple.sh ${BASE} "${BRANCHES}" skip_ru
 
@@ -26,5 +30,7 @@ BRANCHES="\
   jansa/nodistro-scarthgap \
   jansa/nodistro-styhead \
   jansa/nodistro-walnascar \
+  jansa/nodistro-whinlatter \
+  jansa/nodistro-master \
 "
 ${SCRIPTDIR}/rebase-multiple.sh ${BASE} "${BRANCHES}" skip_ru
