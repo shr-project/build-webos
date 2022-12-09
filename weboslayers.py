@@ -53,35 +53,35 @@
 Distribution = "webos"
 
 # Supported MACHINE-s
-Machines = ['qemux86', 'qemux86-64', 'qemuarm', 'raspberrypi3', 'raspberrypi3-64', 'raspberrypi4', 'raspberrypi4-64']
+Machines = ['qemux86', 'qemux86copy', 'qemux86-64', 'qemuarm', 'raspberrypi3', 'raspberrypi3-64', 'raspberrypi4', 'raspberrypi4-64']
 
 # github.com/openembedded repositories are read-only mirrors of the authoritative
 # repositories on git.openembedded.org
 webos_layers = [
-('bitbake',                   -1, 'https://github.com/openembedded/bitbake.git',            'branch=2.6,commit=380a9ac97de', ''),
+('bitbake',                   -1, 'https://git.openembedded.org/bitbake-contrib',           'branch=jansa/2.6', 'bitbake'),
 
-('meta',                       5, 'https://github.com/openembedded/openembedded-core.git',  'branch=nanbield,commit=d0e68072d13', 'oe-core'),
+('meta',                       5, 'https://git.openembedded.org/openembedded-core-contrib', 'branch=jansa/nanbield', 'oe-core'),
 
-('meta-oe',                   10, 'https://github.com/openembedded/meta-openembedded.git',  'branch=nanbield,commit=da9063bdfbe', 'meta-oe'),
-('meta-multimedia',           11, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
-('meta-networking',           12, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
-('meta-python',               13, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
-('meta-filesystems',          14, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
+('meta-oe',                   10, 'https://git.openembedded.org/meta-openembedded-contrib', 'branch=jansa/nanbield', 'meta-oe'),
+('meta-multimedia',           11, 'https://git.openembedded.org/meta-openembedded-contrib', '', 'meta-oe'),
+('meta-networking',           12, 'https://git.openembedded.org/meta-openembedded-contrib', '', 'meta-oe'),
+('meta-python',               13, 'https://git.openembedded.org/meta-openembedded-contrib', '', 'meta-oe'),
+('meta-filesystems',          14, 'https://git.openembedded.org/meta-openembedded-contrib', '', 'meta-oe'),
 
-('meta-clang',                15, 'https://github.com/kraj/meta-clang.git',                 'branch=nanbield,commit=b71a45630d1', ''),
-('meta-virtualization',       16, 'https://git.yoctoproject.org/git/meta-virtualization',   'branch=nanbield,commit=ac125d881f3', ''),
+('meta-clang',                15, 'https://github.com/shr-project/meta-clang.git',          'branch=jansa/nanbield', ''),
+('meta-virtualization',       16, 'https://github.com/shr-project/meta-virtualization',     'branch=jansa/nanbield', ''),
 
-('meta-qt6',                  20, 'https://code.qt.io/yocto/meta-qt6.git',                  'branch=6.8.1,commit=f4ef1331f0c', ''),
+('meta-qt6',                  20, 'https://github.com/shr-project/meta-qt6',                'branch=jansa/nanbield', ''),
 
 ('meta-webos-backports-5.0',  33, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 ('meta-webos-backports-5.1',  34, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 ('meta-webos-backports-5.2',  35, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 
-('meta-webos',                40, 'https://github.com/shr-project/meta-webosose.git',       'branch=nanbield,commit=nanbield-2025-03-27', ''),
+('meta-webos',                40, 'https://github.com/shr-project/meta-webosose.git',       'branch=jansa/nanbield', ''),
 
-('meta-raspberrypi',          50, 'https://github.com/agherzan/meta-raspberrypi.git',       'branch=nanbield,commit=fd79e74cbc1', ''),
+('meta-raspberrypi',          50, 'https://github.com/shr-project/meta-raspberrypi',        'branch=jansa/nanbield', ''),
 ('meta-webos-raspberrypi',    51, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 ('meta-webos-virtualization', 53, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 
-('meta-security',             76, 'https://git.yoctoproject.org/git/meta-security',         'branch=nanbield,commit=5938fa58396', ''),
+('meta-security',             76, 'https://github.com/shr-project/meta-security',           'branch=jansa/nanbield', ''),
 ]
