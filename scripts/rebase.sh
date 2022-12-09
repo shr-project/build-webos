@@ -2,7 +2,7 @@
 
 SCRIPTDIR=/OE/lge/layers/scripts
 
-RELEASE="nanbield"
+RELEASE="scarthgap"
 BUILD="webos"
 
 BUILD_BRANCH="jansa/nodistro-${RELEASE}"
