@@ -2,10 +2,10 @@
 
 SCRIPTDIR=/OE/lge/layers/scripts
 
-RELEASE="walnascar"
+RELEASE="master"
 BUILD="webos"
 
-BUILD_BRANCH="jansa/${RELEASE}"
+BUILD_BRANCH="jansa/whinlatter"
 BRANCH="jansa/${RELEASE}"
 BASE_LAYERS=" \
   meta-webosose \
