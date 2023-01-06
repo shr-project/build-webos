@@ -72,7 +72,7 @@ webos_layers = [
 ('meta-updater',              15, 'https://github.com/uptane/meta-updater.git',             'branch=master,commit=04dde39', ''),
 ('meta-virtualization',       16, 'https://git.yoctoproject.org/git/meta-virtualization',   'branch=master,commit=66b5850', ''),
 
-('meta-qt6',                  20, 'https://code.qt.io/yocto/meta-qt6.git',                  'branch=6.4.0,commit=8370a30', ''),
+('meta-qt6',                  20, 'https://code.qt.io/yocto/meta-qt6.git',                  'branch=6.4,commit=6a158bd', ''),
 
 ('meta-webos',                40, 'https://github.com/shr-project/meta-webosose.git',       'branch=master,commit=master-2023-01-06', ''),
 
