@@ -73,15 +73,15 @@ webos_layers = [
 
 ('meta-qt6',                  20, 'https://code.qt.io/yocto/meta-qt6.git',                  'branch=6.8.1,commit=f4ef1331f0c', ''),
 
-('meta-webos-backports-5.0',  33, 'https://github.com/webosose/meta-webosose.git',          '', ''),
-('meta-webos-backports-5.1',  34, 'https://github.com/webosose/meta-webosose.git',          '', ''),
-('meta-webos-backports-5.2',  35, 'https://github.com/webosose/meta-webosose.git',          '', ''),
+('meta-webos-backports-5.0',  33, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
+('meta-webos-backports-5.1',  34, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
+('meta-webos-backports-5.2',  35, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 
-('meta-webos',                40, 'https://github.com/webosose/meta-webosose.git',          'branch=master,commit=d5cd03c8e3', ''),
+('meta-webos',                40, 'https://github.com/shr-project/meta-webosose.git',       'branch=nanbield,commit=nanbield-2025-03-27', ''),
 
 ('meta-raspberrypi',          50, 'https://github.com/agherzan/meta-raspberrypi.git',       'branch=nanbield,commit=fd79e74cbc1', ''),
-('meta-webos-raspberrypi',    51, 'https://github.com/webosose/meta-webosose.git',          '', ''),
-('meta-webos-virtualization', 53, 'https://github.com/webosose/meta-webosose.git',          '', ''),
+('meta-webos-raspberrypi',    51, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
+('meta-webos-virtualization', 53, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 
 ('meta-security',             76, 'https://git.yoctoproject.org/git/meta-security',         'branch=nanbield,commit=5938fa58396', ''),
 ]
