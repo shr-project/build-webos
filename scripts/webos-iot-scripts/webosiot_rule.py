@@ -21,5 +21,5 @@
 # ('insert', 'meta-webos', ('meta-webos-iot', 41, 'https://github.com/webosose/meta-webos-iot.git', 'branch=webos-headless', 'meta-webos-iot')),
 
 webosiot_layer_rules = [
-('append', ('meta-webos-iot', 'auto', 'https://github.com/webosose/meta-webosose.git', '', '')),
+('append', ('meta-webos-iot', 'auto', 'https://github.com/shr-project/meta-webosose.git', '', '')),
 ]
