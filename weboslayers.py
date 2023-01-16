@@ -73,17 +73,17 @@ webos_layers = [
 
 ('meta-qt6',                  20, 'https://code.qt.io/yocto/meta-qt6.git',                  'branch=6.6.0,commit=v6.6.0', ''),
 
-('meta-webos-backports-4.1',  30, 'https://github.com/webosose/meta-webosose.git',          '', ''),
-('meta-webos-backports-4.2',  31, 'https://github.com/webosose/meta-webosose.git',          '', ''),
-('meta-webos-backports-4.3',  32, 'https://github.com/webosose/meta-webosose.git',          '', ''),
-('meta-webos-backports-5.0',  33, 'https://github.com/webosose/meta-webosose.git',          '', ''),
-('meta-webos-backports-5.1',  34, 'https://github.com/webosose/meta-webosose.git',          '', ''),
+('meta-webos-backports-4.1',  30, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
+('meta-webos-backports-4.2',  31, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
+('meta-webos-backports-4.3',  32, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
+('meta-webos-backports-5.0',  33, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
+('meta-webos-backports-5.1',  34, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 
-('meta-webos',                40, 'https://github.com/webosose/meta-webosose.git',          'branch=master,commit=d5b8fe28', ''),
+('meta-webos',                40, 'https://github.com/shr-project/meta-webosose.git',       'branch=kirkstone,commit=kirkstone-2024-07-10', ''),
 
 ('meta-raspberrypi',          50, 'https://github.com/agherzan/meta-raspberrypi.git',       'branch=kirkstone,commit=d7544f3', ''),
-('meta-webos-raspberrypi',    51, 'https://github.com/webosose/meta-webosose.git',          '', ''),
-('meta-webos-virtualization', 53, 'https://github.com/webosose/meta-webosose.git',          '', ''),
+('meta-webos-raspberrypi',    51, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
+('meta-webos-virtualization', 53, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 
 ('meta-security',             76, 'https://git.yoctoproject.org/git/meta-security',         'branch=kirkstone,commit=353078b', ''),
 ]
