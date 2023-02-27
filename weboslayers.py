@@ -69,15 +69,6 @@ webos_layers = [
 ('meta-filesystems',          14, 'https://git.openembedded.org/meta-openembedded-contrib', '', 'meta-oe'),
 
 ('meta-clang',                15, 'https://github.com/shr-project/meta-clang.git',          'branch=jansa/master', ''),
-('meta-virtualization',       16, 'https://github.com/shr-project/meta-virtualization',     'branch=jansa/master', ''),
-
-('meta-qt6',                  20, 'https://github.com/shr-project/meta-qt6',                'branch=jansa/master', ''),
-
-('meta-webos',                40, 'https://github.com/shr-project/meta-webosose.git',       'branch=jansa/master', ''),
 
 ('meta-raspberrypi',          50, 'https://github.com/shr-project/meta-raspberrypi',        'branch=jansa/master', ''),
-('meta-webos-raspberrypi',    51, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
-('meta-webos-virtualization', 53, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
-
-('meta-security',             76, 'https://github.com/shr-project/meta-security',           'branch=jansa/master', ''),
 ]
