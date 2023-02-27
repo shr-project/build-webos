@@ -45,3 +45,10 @@ latest_project_baselines*txt
 
 # Local override file
 /webos-local.conf
+
+# My local changes
+/wip
+/log.*
+/env.*
+/sstate-diff-*
+/warn.log
