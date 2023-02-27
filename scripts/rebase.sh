@@ -5,7 +5,7 @@ SCRIPTDIR=/OE/lge/layers/scripts
 RELEASE="langdale"
 BUILD="webos"
 
-BUILD_BRANCH="jansa/${RELEASE}"
+BUILD_BRANCH="jansa/nodistro-${RELEASE}"
 BRANCH="jansa/${RELEASE}"
 BASE_LAYERS=" \
   meta-webosose \

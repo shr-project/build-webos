@@ -50,7 +50,7 @@
 # along with a list of the valid MACHINE-s
 #
 
-Distribution = "webos"
+Distribution = ""
 
 # Supported MACHINE-s
 Machines = ['qemux86', 'qemux86copy', 'qemux86-64', 'qemuarm', 'raspberrypi3', 'raspberrypi3-64', 'raspberrypi4', 'raspberrypi4-64']
