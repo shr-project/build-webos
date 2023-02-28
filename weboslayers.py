@@ -60,9 +60,9 @@ Machines = ['qemux86', 'qemux86-64', 'qemuarm', 'raspberrypi3', 'raspberrypi3-64
 webos_layers = [
 ('bitbake',                   -1, 'https://github.com/openembedded/bitbake.git',            'branch=master,commit=6bc65e64', ''),
 
-('meta',                       5, 'https://github.com/openembedded/openembedded-core.git',  'branch=master,commit=f6ac666c99', 'oe-core'),
+('meta',                       5, 'https://github.com/openembedded/openembedded-core.git',  'branch=master,commit=263c852269', 'oe-core'),
 
-('meta-oe',                   10, 'https://github.com/openembedded/meta-openembedded.git',  'branch=master,commit=3b2330e4ee', 'meta-oe'),
+('meta-oe',                   10, 'https://github.com/openembedded/meta-openembedded.git',  'branch=master,commit=a9b2d1303b', 'meta-oe'),
 ('meta-multimedia',           11, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
 ('meta-networking',           12, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
 ('meta-python',               13, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
@@ -70,7 +70,7 @@ webos_layers = [
 
 ('meta-clang',                15, 'https://github.com/kraj/meta-clang.git',                 'branch=master,commit=78ff189', ''),
 ('meta-updater',              15, 'https://github.com/uptane/meta-updater.git',             'branch=master,commit=0400348', ''),
-('meta-virtualization',       16, 'https://git.yoctoproject.org/git/meta-virtualization',   'branch=master,commit=369749a', ''),
+('meta-virtualization',       16, 'https://git.yoctoproject.org/git/meta-virtualization',   'branch=master,commit=ba2158e', ''),
 
 ('meta-qt6',                  20, 'https://code.qt.io/yocto/meta-qt6.git',                  'branch=6.4,commit=316d858', ''),
 
