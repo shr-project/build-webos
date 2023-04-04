@@ -2,7 +2,7 @@
 
 SCRIPTDIR=/OE/lge/layers/scripts
 
-RELEASE="langdale"
+RELEASE="mickledore"
 BUILD="webos"
 
 BUILD_BRANCH="jansa/nodistro-${RELEASE}"
