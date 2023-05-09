@@ -82,5 +82,5 @@ webos_layers = [
 ('meta-webos-virtualization', 53, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 
 ('meta-webos-smack',          75, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
-('meta-security',             77, 'https://git.yoctoproject.org/git/meta-security',         'branch=langdale,commit=d10f6f9', ''),
+('meta-security',             77, 'https://git.yoctoproject.org/git/meta-security',         'branch=langdale,commit=a4562b1', ''),
 ]
