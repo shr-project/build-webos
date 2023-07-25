@@ -68,8 +68,8 @@ webos_layers = [
 ('meta-python',               13, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
 ('meta-filesystems',          14, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
 
-('meta-clang',                15, 'https://github.com/kraj/meta-clang.git',                 'branch=kirkstone,commit=3523149', ''),
-('meta-virtualization',       17, 'https://git.yoctoproject.org/git/meta-virtualization',   'branch=kirkstone,commit=b3b3dbc', ''),
+('meta-clang',                15, 'https://github.com/kraj/meta-clang.git',                 'branch=kirkstone,commit=5563999', ''),
+('meta-virtualization',       17, 'https://git.yoctoproject.org/git/meta-virtualization',   'branch=kirkstone,commit=af02908', ''),
 
 ('meta-qt6',                  20, 'https://code.qt.io/yocto/meta-qt6.git',                  'branch=6.5.1,commit=v6.5.1', ''),
 
