@@ -73,7 +73,8 @@ webos_layers = [
 
 ('meta-qt6',                  20, 'https://code.qt.io/yocto/meta-qt6.git',                  'branch=6.5.2,commit=v6.5.2', ''),
 
-('meta-webos-backports-4.3',  32, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
+('meta-webos-backports-4.3',  31, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
+('meta-webos-backports-5.0',  32, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 
 ('meta-webos',                40, 'https://github.com/shr-project/meta-webosose.git',       'branch=mickledore,commit=mickledore-2023-10-15', ''),
 
