@@ -58,9 +58,9 @@ Machines = ['qemux86', 'qemux86-64', 'qemuarm', 'raspberrypi3', 'raspberrypi3-64
 # github.com/openembedded repositories are read-only mirrors of the authoritative
 # repositories on git.openembedded.org
 webos_layers = [
-('bitbake',                   -1, 'https://github.com/openembedded/bitbake.git',            'branch=2.6,commit=f3ba9c372', ''),
+('bitbake',                   -1, 'https://github.com/openembedded/bitbake.git',            'branch=2.6,commit=29c310be2', ''),
 
-('meta',                       5, 'https://github.com/openembedded/openembedded-core.git',  'branch=nanbield,commit=fa53f898ea', 'oe-core'),
+('meta',                       5, 'https://github.com/openembedded/openembedded-core.git',  'branch=nanbield,commit=2245b2754d', 'oe-core'),
 
 ('meta-oe',                   10, 'https://github.com/openembedded/meta-openembedded.git',  'branch=nanbield,commit=3dd5d208be', 'meta-oe'),
 ('meta-multimedia',           11, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
@@ -80,5 +80,5 @@ webos_layers = [
 ('meta-webos-virtualization', 53, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 
 ('meta-webos-smack',          75, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
-('meta-security',             77, 'https://git.yoctoproject.org/git/meta-security',         'branch=master,commit=aca6d4a', ''),
+('meta-security',             77, 'https://git.yoctoproject.org/git/meta-security',         'branch=master,commit=3f7d40b', ''),
 ]
