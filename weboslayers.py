@@ -58,7 +58,7 @@ Machines = ['qemux86', 'qemux86-64', 'qemuarm', 'raspberrypi3', 'raspberrypi3-64
 # github.com/openembedded repositories are read-only mirrors of the authoritative
 # repositories on git.openembedded.org
 webos_layers = [
-('bitbake',                   -1, 'https://github.com/openembedded/bitbake.git',            'branch=2.2,commit=0ca5004fc', ''),
+('bitbake',                   -1, 'https://github.com/openembedded/bitbake.git',            'branch=2.2,commit=e477a9cb3', ''),
 
 ('meta',                       5, 'https://github.com/openembedded/openembedded-core.git',  'branch=langdale,commit=78211cda40', 'oe-core'),
 
