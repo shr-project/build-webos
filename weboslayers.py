@@ -60,7 +60,7 @@ Machines = ['qemux86', 'qemux86-64', 'qemuarm', 'raspberrypi3', 'raspberrypi3-64
 webos_layers = [
 ('bitbake',                   -1, 'https://github.com/openembedded/bitbake.git',            'branch=2.0,commit=ee090484c', ''),
 
-('meta',                       5, 'https://github.com/openembedded/openembedded-core.git',  'branch=kirkstone,commit=8e27f96c0b', 'oe-core'),
+('meta',                       5, 'https://github.com/openembedded/openembedded-core.git',  'branch=kirkstone,commit=ebd61290a6', 'oe-core'),
 
 ('meta-oe',                   10, 'https://github.com/openembedded/meta-openembedded.git',  'branch=kirkstone,commit=730e44900a', 'meta-oe'),
 ('meta-multimedia',           11, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
