@@ -58,18 +58,18 @@ Machines = ['qemux86', 'qemux86-64', 'qemuarm', 'raspberrypi3', 'raspberrypi3-64
 # github.com/openembedded repositories are read-only mirrors of the authoritative
 # repositories on git.openembedded.org
 webos_layers = [
-('bitbake',                   -1, 'https://github.com/openembedded/bitbake.git',            'branch=master,commit=97ffe1431', ''),
+('bitbake',                   -1, 'https://github.com/openembedded/bitbake.git',            'branch=master,commit=5e84c13a6', ''),
 
-('meta',                       5, 'https://github.com/openembedded/openembedded-core.git',  'branch=master,commit=943c6acf85', 'oe-core'),
+('meta',                       5, 'https://github.com/openembedded/openembedded-core.git',  'branch=master,commit=d73595df69', 'oe-core'),
 
-('meta-oe',                   10, 'https://github.com/openembedded/meta-openembedded.git',  'branch=master,commit=87cdaf04b1', 'meta-oe'),
+('meta-oe',                   10, 'https://github.com/openembedded/meta-openembedded.git',  'branch=master,commit=01d3dca6e9', 'meta-oe'),
 ('meta-multimedia',           11, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
 ('meta-networking',           12, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
 ('meta-python',               13, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
 ('meta-filesystems',          14, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
 
 ('meta-clang',                15, 'https://github.com/kraj/meta-clang.git',                 'branch=master,commit=66414c1', ''),
-('meta-virtualization',       16, 'https://git.yoctoproject.org/git/meta-virtualization',   'branch=master,commit=0b5cf637', ''),
+('meta-virtualization',       16, 'https://git.yoctoproject.org/git/meta-virtualization',   'branch=master,commit=e9bb0a33', ''),
 
 ('meta-qt6',                  20, 'https://code.qt.io/yocto/meta-qt6.git',                  'branch=6.6.0,commit=6c474cf', ''),
 
