@@ -473,8 +473,5 @@ CONF_VERSION = "2"
 #ARCHIVER_CLASS = "${@'archive-${ARCHIVER_MODE}-source' if ARCHIVER_MODE != 'none' else ''}"
 #INHERIT += "${ARCHIVER_CLASS}"
 
-# Other local settings
-TCLIBCAPPEND := ""
-
 include ${HOME}/webos-global.conf
 include ${TOPDIR}/webos-local.conf
