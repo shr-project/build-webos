@@ -58,9 +58,9 @@ Machines = ['qemux86', 'qemux86-64', 'qemuarm', 'raspberrypi3', 'raspberrypi3-64
 # github.com/openembedded repositories are read-only mirrors of the authoritative
 # repositories on git.openembedded.org
 webos_layers = [
-('bitbake',                   -1, 'https://github.com/openembedded/bitbake.git',            'branch=2.10,commit=9ef4f2a30', ''),
+('bitbake',                   -1, 'https://github.com/openembedded/bitbake.git',            'branch=2.10,commit=44c4c487e', ''),
 
-('meta',                       5, 'https://github.com/openembedded/openembedded-core.git',  'branch=styhead,commit=c00ad42b6a', 'oe-core'),
+('meta',                       5, 'https://github.com/openembedded/openembedded-core.git',  'branch=styhead,commit=d5ba3f78f3', 'oe-core'),
 
 ('meta-oe',                   10, 'https://github.com/openembedded/meta-openembedded.git',  'branch=styhead,commit=461d85a183', 'meta-oe'),
 ('meta-multimedia',           11, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
@@ -69,7 +69,7 @@ webos_layers = [
 ('meta-filesystems',          14, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
 
 ('meta-clang',                15, 'https://github.com/kraj/meta-clang.git',                 'branch=styhead,commit=c709a51', ''),
-('meta-virtualization',       16, 'https://git.yoctoproject.org/git/meta-virtualization',   'branch=styhead,commit=72ea5203', ''),
+('meta-virtualization',       16, 'https://git.yoctoproject.org/git/meta-virtualization',   'branch=styhead,commit=2747f11e', ''),
 
 ('meta-qt6',                  20, 'https://code.qt.io/yocto/meta-qt6.git',                  'branch=6.6.0,commit=6c474cf', ''),
 
