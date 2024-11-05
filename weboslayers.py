@@ -82,5 +82,5 @@ webos_layers = [
 ('meta-webos-raspberrypi',    51, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 ('meta-webos-virtualization', 53, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 
-('meta-security',             76, 'https://git.yoctoproject.org/git/meta-security',         'branch=scarthgap,commit=459d837', ''),
+('meta-security',             76, 'https://git.yoctoproject.org/git/meta-security',         'branch=scarthgap,commit=bc865c5', ''),
 ]
