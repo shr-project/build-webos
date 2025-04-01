@@ -62,13 +62,13 @@ webos_layers = [
 
 ('meta',                       5, 'https://github.com/openembedded/openembedded-core.git',  'branch=walnascar,commit=dc2ef2cc118', 'oe-core'),
 
-('meta-oe',                   10, 'https://github.com/openembedded/meta-openembedded.git',  'branch=master,commit=8147a884c68', 'meta-oe'),
+('meta-oe',                   10, 'https://github.com/openembedded/meta-openembedded.git',  'branch=walnascar,commit=713d35adce4', 'meta-oe'),
 ('meta-multimedia',           11, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
 ('meta-networking',           12, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
 ('meta-python',               13, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
 ('meta-filesystems',          14, 'https://github.com/openembedded/meta-openembedded.git',  '', 'meta-oe'),
 
-('meta-clang',                15, 'https://github.com/kraj/meta-clang.git',                 'branch=master,commit=892380133be', ''),
+('meta-clang',                15, 'https://github.com/kraj/meta-clang.git',                 'branch=master,commit=11b169e210c', ''),
 ('meta-virtualization',       16, 'https://git.yoctoproject.org/git/meta-virtualization',   'branch=master,commit=a309b738e73', ''),
 
 ('meta-qt6',                  20, 'https://code.qt.io/yocto/meta-qt6.git',                  'branch=6.8.1,commit=f4ef1331f0c', ''),
@@ -79,5 +79,5 @@ webos_layers = [
 ('meta-webos-raspberrypi',    51, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 ('meta-webos-virtualization', 53, 'https://github.com/shr-project/meta-webosose.git',       '', ''),
 
-('meta-security',             76, 'https://git.yoctoproject.org/git/meta-security',         'branch=styhead,commit=e2c44c8b5d0', ''),
+('meta-security',             76, 'https://git.yoctoproject.org/git/meta-security',         'branch=master,commit=1c03fdfe566', ''),
 ]
