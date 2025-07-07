@@ -71,7 +71,7 @@ webos_layers = [
 ('meta-clang',                15, 'https://github.com/kraj/meta-clang.git',                 'branch=master,commit=3a073612b94', ''),
 ('meta-virtualization',       16, 'https://git.yoctoproject.org/git/meta-virtualization',   'branch=master,commit=f707bbe3232', ''),
 
-('meta-qt6',                  20, 'https://code.qt.io/yocto/meta-qt6.git',                  'branch=6.8.1,commit=f4ef1331f0c', ''),
+('meta-qt6',                  20, 'https://code.qt.io/yocto/meta-qt6.git',                  'branch=6.9,commit=9d7693a4e0c', ''),
 
 ('meta-webos',                40, 'https://github.com/shr-project/meta-webosose.git',       'branch=master,commit=master-2025-07-07', ''),
 
